@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="30">
+    <author>Team FSI Modding</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Sample Mod Map</en>
+    </title>
+    <description>
+        <en>This is the sample mod map.</en>
+    </description>
+    <iconFilename>icon.png</iconFilename>
+    <multiplayer supported="true"/>
+    <maps>
+        <map id="SampleModMap" className="Mission00" filename="$dataS/scripts/missions/mission00.lua" configFilename="maps/map01.xml" defaultVehiclesXMLFilename="defaultVehicles.xml">
+            <title>
+                <en>Sample Mod Map</en>
+            </title>
+            <description>
+                <en>This is the sample mod map.</en>
+            </description>
+            <iconFilename>maps/map01_preview.png</iconFilename>
+        </map>
+    </maps>
+</modDesc>

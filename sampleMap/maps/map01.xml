@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<map>
+    <filename>maps/map01.i3d</filename>
+    <sounds filename="maps/map01_sound.xml" />
+    <ingameMap filename="maps/pda_map_H.png" width="2048" height="2048" />
+    <environment filename="maps/map01_environment.xml" />
+
+    <culling xzOffset="100" />
+
+    <hotspots>
+        <hotspot name="Shop"         fullName="$l10n_map_shop"             imageUVs="520 8 240 240"   xMapPos="-723"   zMapPos="464.5" blinking="false" persistent="false" showName="true"  hidable="true" renderLast="false" category="CATEGORY_TRIGGERS"/>
+        <hotspot name="Cows"         fullName="$l10n_animals_cowPasture"   imageUVs="520 264 240 240" xMapPos="-556"   zMapPos="640"   blinking="false" persistent="false" showName="false" hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+        <hotspot name="Sheep"        fullName="$l10n_animals_sheepPasture" imageUVs="264 264 240 240" xMapPos="-374"   zMapPos="-175"  blinking="false" persistent="false" showName="false" hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+        <hotspot name="Pigs"         fullName="$l10n_animals_pigPasture"   imageUVs="776 264 240 240" xMapPos="163.5"  zMapPos="-463"  blinking="false" persistent="false" showName="false" hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+        <hotspot name="Chickens"     fullName="$l10n_animals_chickenCoop"  imageUVs="8 264 240 240"   xMapPos="223"    zMapPos="-4"    blinking="false" persistent="false" showName="false" hidable="true" renderLast="false" category="CATEGORY_DEFAULT"/>
+    </hotspots>
+
+    <additionalFiles>
+        <additionalFile filename="$data/shared/materialHolders/tensionBeltMaterialHolder.i3d" />
+        <additionalFile filename="$data/shared/materialHolders/tireTrackMaterialHolder.i3d" />
+        <additionalFile filename="$data/shared/materialHolders/glowEffectMaterialHolder.i3d" />
+        <additionalFile filename="$data/shared/mapTargetMarker.i3d" />
+        <additionalFile filename="$data/particleSystems/particle_materialHolder.i3d" />
+        <additionalFile filename="$data/particleSystems/effect_materialHolder.i3d" />
+        <additionalFile filename="$data/particleSystems/cutterEffect_materialHolder.i3d" />
+        <additionalFile filename="$data/particleSystems/cutterEffectMap01_materialHolder.i3d" />
+        <additionalFile filename="$data/fillPlanes/fillPlane_materialHolder.i3d" />
+    </additionalFiles>
+
+    <tipTriggers>
+    </tipTriggers>
+</map>

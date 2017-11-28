@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<i3D name="Sample Mod Map 1" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+  <Asset>
+    <Export program="GIANTS Editor 64bit" version="7.1.0"/>
+  </Asset>
+
+  <Files>
+    <File fileId="103" filename="../foliage/foliage_potato_haulm_diffuse.png" relativePath="true"/>
+    <File fileId="111" filename="../foliage/foliage_sugarbeet_haulm_diffuse.png" relativePath="true"/>
+    <File fileId="138" filename="../foliage/forestGrassDark_diffuse.png" relativePath="true"/>
+    <File fileId="96" filename="../foliage/maize_diffuse.png" relativePath="true"/>
+    <File fileId="127" filename="../foliage/oilseedRadish_diffuse.png" relativePath="true"/>
+    <File fileId="128" filename="../foliage/poplar_diffuse.png" relativePath="true"/>
+    <File fileId="102" filename="../foliage/potatoes_diffuse.png" relativePath="true"/>
+    <File fileId="83" filename="../foliage/rape_diffuse.png" relativePath="true"/>
+    <File fileId="76" filename="../foliage/roughGrass_diffuse.png" relativePath="true"/>
+    <File fileId="125" filename="../foliage/soybean_diffuse.png" relativePath="true"/>
+    <File fileId="136" filename="../foliage/sugarCaneHaulm_diffuse.png" relativePath="true"/>
+    <File fileId="135" filename="../foliage/sugarCane_diffuse.png" relativePath="true"/>
+    <File fileId="110" filename="../foliage/sugarbeet_diffuse.png" relativePath="true"/>
+    <File fileId="118" filename="../foliage/sunflower_diffuse.png" relativePath="true"/>
+    <File fileId="141" filename="../foliage/townDecoGrass_diffuse.png" relativePath="true"/>
+    <File fileId="72" filename="../foliage/wheatBarley_diffuse.png" relativePath="true"/>
+    <File fileId="39" filename="map01/asphalt_weight.png" relativePath="true"/>
+    <File fileId="15" filename="map01/beachSand_weight.png" relativePath="true"/>
+    <File fileId="23" filename="map01/concrete_weight.png" relativePath="true"/>
+    <File fileId="144" filename="map01/cultivator_density.png" relativePath="true"/>
+    <File fileId="59" filename="map01/dirt_weight.png" relativePath="true"/>
+    <File fileId="137" filename="map01/forestGrassDark_density.png" relativePath="true"/>
+    <File fileId="27" filename="map01/forestGround_weight.png" relativePath="true"/>
+    <File fileId="65" filename="map01/fruit_density.png" relativePath="true"/>
+    <File fileId="7" filename="map01/grass_weight.png" relativePath="true"/>
+    <File fileId="19" filename="map01/gravel_weight.png" relativePath="true"/>
+    <File fileId="63" filename="map01/infoLayer.png" relativePath="true"/>
+    <File fileId="43" filename="map01/leaves_weight.png" relativePath="true"/>
+    <File fileId="1" filename="map01/map01_dem.png" relativePath="true"/>
+    <File fileId="11" filename="map01/mountainRock_weight.png" relativePath="true"/>
+    <File fileId="47" filename="map01/mud_weight.png" relativePath="true"/>
+    <File fileId="35" filename="map01/pigMud_weight.png" relativePath="true"/>
+    <File fileId="51" filename="map01/plate_weight.png" relativePath="true"/>
+    <File fileId="55" filename="map01/rock_weight.png" relativePath="true"/>
+    <File fileId="3" filename="map01/roughDirt_weight.png" relativePath="true"/>
+    <File fileId="142" filename="map01/seasons_mask.png" relativePath="true"/>
+    <File fileId="163" filename="map01/terrainDetailHeight_density.png" relativePath="true"/>
+    <File fileId="64" filename="map01/tipColInfoLayer.png" relativePath="true"/>
+    <File fileId="140" filename="map01/townDecoGrass_density.png" relativePath="true"/>
+    <File fileId="31" filename="map01/townGrass_weight.png" relativePath="true"/>
+    <File fileId="41" filename="textures/terrain/asphalt_diffuse.png" relativePath="true"/>
+    <File fileId="40" filename="textures/terrain/asphalt_distance_diffuse.png" relativePath="true"/>
+    <File fileId="42" filename="textures/terrain/asphalt_normal.png" relativePath="true"/>
+    <File fileId="17" filename="textures/terrain/beachSand_diffuse.png" relativePath="true"/>
+    <File fileId="16" filename="textures/terrain/beachSand_distance_diffuse.png" relativePath="true"/>
+    <File fileId="18" filename="textures/terrain/beachSand_normal.png" relativePath="true"/>
+    <File fileId="25" filename="textures/terrain/concrete_diffuse.png" relativePath="true"/>
+    <File fileId="24" filename="textures/terrain/concrete_distance_diffuse.png" relativePath="true"/>
+    <File fileId="26" filename="textures/terrain/concrete_normal.png" relativePath="true"/>
+    <File fileId="61" filename="textures/terrain/dirt_diffuse.png" relativePath="true"/>
+    <File fileId="60" filename="textures/terrain/dirt_distance_diffuse.png" relativePath="true"/>
+    <File fileId="62" filename="textures/terrain/dirt_normal.png" relativePath="true"/>
+    <File fileId="146" filename="textures/terrain/distance/acre_distance_diffuse.png" relativePath="true"/>
+    <File fileId="147" filename="textures/terrain/distance/acre_fine_distance_diffuse.png" relativePath="true"/>
+    <File fileId="152" filename="textures/terrain/distance/acre_fine_sprayed_distance_diffuse.png" relativePath="true"/>
+    <File fileId="149" filename="textures/terrain/distance/acre_grass_distance_diffuse.png" relativePath="true"/>
+    <File fileId="156" filename="textures/terrain/distance/acre_grass_manure_distance_diffuse.png" relativePath="true"/>
+    <File fileId="154" filename="textures/terrain/distance/acre_grass_sprayed_distance_diffuse.png" relativePath="true"/>
+    <File fileId="155" filename="textures/terrain/distance/acre_manure_distance_diffuse.png" relativePath="true"/>
+    <File fileId="148" filename="textures/terrain/distance/acre_plantedRows_distance_diffuse.png" relativePath="true"/>
+    <File fileId="153" filename="textures/terrain/distance/acre_plantedRows_sprayed_distance_diffuse.png" relativePath="true"/>
+    <File fileId="151" filename="textures/terrain/distance/acre_sprayed_distance_diffuse.png" relativePath="true"/>
+    <File fileId="145" filename="textures/terrain/distance/cultivator_distance_diffuse.png" relativePath="true"/>
+    <File fileId="150" filename="textures/terrain/distance/cultivator_sprayed_distance_diffuse.png" relativePath="true"/>
+    <File fileId="84" filename="textures/terrain/distance/foliage_barley_distance2_diffuse.png" relativePath="true"/>
+    <File fileId="85" filename="textures/terrain/distance/foliage_barley_distance3_diffuse.png" relativePath="true"/>
+    <File fileId="86" filename="textures/terrain/distance/foliage_barley_distance4_diffuse.png" relativePath="true"/>
+    <File fileId="87" filename="textures/terrain/distance/foliage_barley_distance5_diffuse.png" relativePath="true"/>
+    <File fileId="88" filename="textures/terrain/distance/foliage_barley_distance6_diffuse.png" relativePath="true"/>
+    <File fileId="89" filename="textures/terrain/distance/foliage_barley_distance7_diffuse.png" relativePath="true"/>
+    <File fileId="90" filename="textures/terrain/distance/foliage_maize_distance2_diffuse.png" relativePath="true"/>
+    <File fileId="91" filename="textures/terrain/distance/foliage_maize_distance3_diffuse.png" relativePath="true"/>
+    <File fileId="92" filename="textures/terrain/distance/foliage_maize_distance4_diffuse.png" relativePath="true"/>
+    <File fileId="93" filename="textures/terrain/distance/foliage_maize_distance5_diffuse.png" relativePath="true"/>
+    <File fileId="94" filename="textures/terrain/distance/foliage_maize_distance6_diffuse.png" relativePath="true"/>
+    <File fileId="95" filename="textures/terrain/distance/foliage_maize_distance7_diffuse.png" relativePath="true"/>
+    <File fileId="126" filename="textures/terrain/distance/foliage_oilseed_distance2_diffuse.png" relativePath="true"/>
+    <File fileId="97" filename="textures/terrain/distance/foliage_potato_distance2_diffuse.png" relativePath="true"/>
+    <File fileId="98" filename="textures/terrain/distance/foliage_potato_distance3_diffuse.png" relativePath="true"/>
+    <File fileId="99" filename="textures/terrain/distance/foliage_potato_distance4_diffuse.png" relativePath="true"/>
+    <File fileId="100" filename="textures/terrain/distance/foliage_potato_distance5_diffuse.png" relativePath="true"/>
+    <File fileId="101" filename="textures/terrain/distance/foliage_potato_distance6_diffuse.png" relativePath="true"/>
+    <File fileId="77" filename="textures/terrain/distance/foliage_rape_distance2_diffuse.png" relativePath="true"/>
+    <File fileId="78" filename="textures/terrain/distance/foliage_rape_distance3_diffuse.png" relativePath="true"/>
+    <File fileId="79" filename="textures/terrain/distance/foliage_rape_distance4_diffuse.png" relativePath="true"/>
+    <File fileId="80" filename="textures/terrain/distance/foliage_rape_distance5_diffuse.png" relativePath="true"/>
+    <File fileId="81" filename="textures/terrain/distance/foliage_rape_distance6_diffuse.png" relativePath="true"/>
+    <File fileId="82" filename="textures/terrain/distance/foliage_rape_distance7_diffuse.png" relativePath="true"/>
+    <File fileId="119" filename="textures/terrain/distance/foliage_soybean_distance2_diffuse.png" relativePath="true"/>
+    <File fileId="120" filename="textures/terrain/distance/foliage_soybean_distance3_diffuse.png" relativePath="true"/>
+    <File fileId="121" filename="textures/terrain/distance/foliage_soybean_distance4_diffuse.png" relativePath="true"/>
+    <File fileId="122" filename="textures/terrain/distance/foliage_soybean_distance5_diffuse.png" relativePath="true"/>
+    <File fileId="123" filename="textures/terrain/distance/foliage_soybean_distance6_diffuse.png" relativePath="true"/>
+    <File fileId="124" filename="textures/terrain/distance/foliage_soybean_distance7_diffuse.png" relativePath="true"/>
+    <File fileId="105" filename="textures/terrain/distance/foliage_sugarBeet_distance2_diffuse.png" relativePath="true"/>
+    <File fileId="106" filename="textures/terrain/distance/foliage_sugarBeet_distance3_diffuse.png" relativePath="true"/>
+    <File fileId="107" filename="textures/terrain/distance/foliage_sugarBeet_distance4_diffuse.png" relativePath="true"/>
+    <File fileId="108" filename="textures/terrain/distance/foliage_sugarBeet_distance5_diffuse.png" relativePath="true"/>
+    <File fileId="109" filename="textures/terrain/distance/foliage_sugarBeet_distance6_diffuse.png" relativePath="true"/>
+    <File fileId="129" filename="textures/terrain/distance/foliage_sugarCane_distance2_diffuse.png" relativePath="true"/>
+    <File fileId="130" filename="textures/terrain/distance/foliage_sugarCane_distance3_diffuse.png" relativePath="true"/>
+    <File fileId="131" filename="textures/terrain/distance/foliage_sugarCane_distance4_diffuse.png" relativePath="true"/>
+    <File fileId="132" filename="textures/terrain/distance/foliage_sugarCane_distance5_diffuse.png" relativePath="true"/>
+    <File fileId="133" filename="textures/terrain/distance/foliage_sugarCane_distance6_diffuse.png" relativePath="true"/>
+    <File fileId="134" filename="textures/terrain/distance/foliage_sugarCane_distance7_diffuse.png" relativePath="true"/>
+    <File fileId="112" filename="textures/terrain/distance/foliage_sunflower_distance2_diffuse.png" relativePath="true"/>
+    <File fileId="113" filename="textures/terrain/distance/foliage_sunflower_distance3_diffuse.png" relativePath="true"/>
+    <File fileId="114" filename="textures/terrain/distance/foliage_sunflower_distance4_diffuse.png" relativePath="true"/>
+    <File fileId="115" filename="textures/terrain/distance/foliage_sunflower_distance5_diffuse.png" relativePath="true"/>
+    <File fileId="116" filename="textures/terrain/distance/foliage_sunflower_distance6_diffuse.png" relativePath="true"/>
+    <File fileId="117" filename="textures/terrain/distance/foliage_sunflower_distance7_diffuse.png" relativePath="true"/>
+    <File fileId="66" filename="textures/terrain/distance/foliage_wheat_distance2_diffuse.png" relativePath="true"/>
+    <File fileId="67" filename="textures/terrain/distance/foliage_wheat_distance3_diffuse.png" relativePath="true"/>
+    <File fileId="68" filename="textures/terrain/distance/foliage_wheat_distance4_diffuse.png" relativePath="true"/>
+    <File fileId="69" filename="textures/terrain/distance/foliage_wheat_distance5_diffuse.png" relativePath="true"/>
+    <File fileId="70" filename="textures/terrain/distance/foliage_wheat_distance6_diffuse.png" relativePath="true"/>
+    <File fileId="71" filename="textures/terrain/distance/foliage_wheat_distance7_diffuse.png" relativePath="true"/>
+    <File fileId="29" filename="textures/terrain/forestGround_diffuse.png" relativePath="true"/>
+    <File fileId="28" filename="textures/terrain/forestGround_distance_diffuse.png" relativePath="true"/>
+    <File fileId="30" filename="textures/terrain/forestGround_normal.png" relativePath="true"/>
+    <File fileId="21" filename="textures/terrain/gravel_diffuse.png" relativePath="true"/>
+    <File fileId="20" filename="textures/terrain/gravel_distance_diffuse.png" relativePath="true"/>
+    <File fileId="22" filename="textures/terrain/gravel_normal.png" relativePath="true"/>
+    <File fileId="157" filename="textures/terrain/ground/ground_diffuse.png" relativePath="true"/>
+    <File fileId="158" filename="textures/terrain/ground/ground_normal.png" relativePath="true"/>
+    <File fileId="45" filename="textures/terrain/leaves_diffuse.png" relativePath="true"/>
+    <File fileId="44" filename="textures/terrain/leaves_distance_diffuse.png" relativePath="true"/>
+    <File fileId="46" filename="textures/terrain/leaves_normal.png" relativePath="true"/>
+    <File fileId="13" filename="textures/terrain/mountainRock_diffuse.png" relativePath="true"/>
+    <File fileId="12" filename="textures/terrain/mountainRock_distance_diffuse.png" relativePath="true"/>
+    <File fileId="14" filename="textures/terrain/mountainRock_normal.png" relativePath="true"/>
+    <File fileId="49" filename="textures/terrain/mud_diffuse.png" relativePath="true"/>
+    <File fileId="48" filename="textures/terrain/mud_distance_diffuse.png" relativePath="true"/>
+    <File fileId="50" filename="textures/terrain/mud_normal.png" relativePath="true"/>
+    <File fileId="37" filename="textures/terrain/pigMud_diffuse.png" relativePath="true"/>
+    <File fileId="36" filename="textures/terrain/pigMud_distance_diffuse.png" relativePath="true"/>
+    <File fileId="38" filename="textures/terrain/pigMud_normal.png" relativePath="true"/>
+    <File fileId="53" filename="textures/terrain/plate_diffuse.png" relativePath="true"/>
+    <File fileId="52" filename="textures/terrain/plate_distance_diffuse.png" relativePath="true"/>
+    <File fileId="54" filename="textures/terrain/plate_normal.png" relativePath="true"/>
+    <File fileId="57" filename="textures/terrain/rock_diffuse.png" relativePath="true"/>
+    <File fileId="56" filename="textures/terrain/rock_distance_diffuse.png" relativePath="true"/>
+    <File fileId="58" filename="textures/terrain/rock_normal.png" relativePath="true"/>
+    <File fileId="5" filename="textures/terrain/roughDirt_diffuse.png" relativePath="true"/>
+    <File fileId="4" filename="textures/terrain/roughDirt_distance_diffuse.png" relativePath="true"/>
+    <File fileId="6" filename="textures/terrain/roughDirt_normal.png" relativePath="true"/>
+    <File fileId="9" filename="textures/terrain/roughGrass_diffuse.png" relativePath="true"/>
+    <File fileId="8" filename="textures/terrain/roughGrass_distance_diffuse.png" relativePath="true"/>
+    <File fileId="10" filename="textures/terrain/roughGrass_normal.png" relativePath="true"/>
+    <File fileId="33" filename="textures/terrain/townGrass_diffuse.png" relativePath="true"/>
+    <File fileId="32" filename="textures/terrain/townGrass_distance_diffuse.png" relativePath="true"/>
+    <File fileId="34" filename="textures/terrain/townGrass_normal.png" relativePath="true"/>
+    <File fileId="73" filename="../shaders/fruitGrowthFoliageShader.xml" relativePath="true"/>
+    <File fileId="164" filename="../shaders/groundHeightShader.xml" relativePath="true"/>
+    <File fileId="159" filename="../shaders/groundShader.xml" relativePath="true"/>
+    <File fileId="139" filename="../shaders/solidFoliageShader.xml" relativePath="true"/>
+    <File fileId="2" filename="../shaders/terrainShader.xml" relativePath="true"/>
+    <File fileId="104" filename="../shaders/windrowFoliageShader.xml" relativePath="true"/>
+    <File fileId="160" filename="../shared/noise.png" relativePath="true"/>
+  </Files>
+
+
+  <Materials>
+    <Material name="sugarCane_mat" materialId="7" ambientColor="1 1 1" customShaderId="73">
+      <Texture fileId="135"/>
+      <CustomParameter name="alphaBlendStartEnd" value="70 75 0 0"/>
+      <CustomParameter name="frequencyAndScale" value="0.05 0.02 0 0"/>
+      <CustomParameter name="plantRotate" value="0.4363 1.57 0 0"/>
+      <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="16 1024 2 255"/>
+    </Material>
+    <Material name="foliagePotato_mat" materialId="10" ambientColor="1 1 1" customShaderId="73">
+      <Texture fileId="102"/>
+      <CustomParameter name="alphaBlendStartEnd" value="70 75 0 0"/>
+      <CustomParameter name="frequencyAndScale" value="0.3 0.1 0 0"/>
+      <CustomParameter name="plantRotate" value="0.4363 1.57 0 0"/>
+      <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="16 1024 2 255"/>
+    </Material>
+    <Material name="foliageWheat_mat" materialId="9" ambientColor="1 1 1" customShaderId="73">
+      <Texture fileId="72"/>
+      <CustomParameter name="alphaBlendStartEnd" value="70 75 0 0"/>
+      <CustomParameter name="frequencyAndScale" value="0.3 0.1 0 0"/>
+      <CustomParameter name="plantRotate" value="0.4363 1.57 0 0"/>
+      <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="16 1024 2 255"/>
+    </Material>
+    <Material name="UnnamedMaterial" materialId="11" diffuseColor="1 1 1 1" ambientColor="1 1 1">
+    </Material>
+    <Material name="terrainMaterial_mat" materialId="13" ambientColor="1 1 1" customShaderId="2">
+      <CustomParameter name="terrainLayerRepeat0" value="0 0 0 0"/>
+      <CustomParameter name="terrainLayerRepeat1" value="0 0 0 0"/>
+      <CustomParameter name="terrainLayerPlanes0" value="0 0 0 0"/>
+      <CustomParameter name="terrainLayerPlanes1" value="0 0 0 0"/>
+      <CustomParameter name="chunkLayerMappings0" value="0 0 0 0"/>
+      <CustomParameter name="chunkLayerMappings1" value="0 0 0 0"/>
+      <CustomParameter name="terrainLodBlendInfos" value="0 0 0 0"/>
+      <CustomParameter name="terrainSizeInvSizeScaleXZScaleY" value="0 0 0 0"/>
+      <CustomParameter name="terrainStartXZScaleXZ" value="0 0 0 0"/>
+      <CustomParameter name="terrainPatchScale" value="0 0 0 0"/>
+      <CustomParameter name="scaleramp0102" value="0 0 0 0"/>
+      <CustomParameter name="scaleramp0312" value="0 0 0 0"/>
+      <CustomParameter name="scaleramp1323" value="0 0 0 0"/>
+    </Material>
+    <Material name="foliageRape_mat" materialId="8" ambientColor="1 1 1" customShaderId="73">
+      <Texture fileId="83"/>
+      <CustomParameter name="alphaBlendStartEnd" value="70 75 0 0"/>
+      <CustomParameter name="frequencyAndScale" value="0.3 0.1 0 0"/>
+      <CustomParameter name="plantRotate" value="0.4363 1.57 0 0"/>
+      <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="16 1024 2 255"/>
+    </Material>
+    <Material name="groundDetailHeight_mat" materialId="31" ambientColor="1 1 1" customShaderId="164">
+      <Texture fileId="157"/>
+      <Normalmap fileId="158"/>
+      <CustomParameter name="dirtAndTextureUVScale" value="0.04 0.04 1.6 0"/>
+      <CustomParameter name="alphaBlendStartEnd" value="75 80 0 0"/>
+      <CustomParameter name="terrainSizeInvSizeScaleXZScaleY" value="4096 0.000244141 0.5 0.00389105"/>
+    </Material>
+    <Material name="foliageMaize_mat" materialId="32" ambientColor="1 1 1" customShaderId="73">
+      <Texture fileId="96"/>
+      <CustomParameter name="alphaBlendStartEnd" value="70 75 0 0"/>
+      <CustomParameter name="frequencyAndScale" value="0.05 0.02 0 0"/>
+      <CustomParameter name="plantRotate" value="0.4363 1.57 0 0"/>
+      <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="16 1024 2 255"/>
+    </Material>
+    <Material name="sugarBeetHaulmMaterial" materialId="23" ambientColor="1 1 1" customShaderId="104">
+      <Texture fileId="111"/>
+      <CustomParameter name="alphaBlendStartEnd" value="70 75 0 0"/>
+      <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="16 1024 2 255"/>
+    </Material>
+    <Material name="sugarBeetHaulmMaterial" materialId="24" ambientColor="1 1 1" customShaderId="104">
+      <Texture fileId="136"/>
+      <CustomParameter name="alphaBlendStartEnd" value="70 75 0 0"/>
+      <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="16 1024 2 255"/>
+    </Material>
+    <Material name="foliageGrassColor_mat" materialId="25" ambientColor="1 1 1" customShaderId="73" customShaderVariation="COLOR_MASK">
+      <Texture fileId="76"/>
+      <CustomParameter name="alphaBlendStartEnd" value="70 75 0 0"/>
+      <CustomParameter name="frequencyAndScale" value="0.3 0.1 0 0"/>
+      <CustomParameter name="plantRotate" value="0.4363 1.57 0 0"/>
+      <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="16 1024 2 255"/>
+    </Material>
+    <Material name="foliageGrass_mat" materialId="21" ambientColor="1 1 1" customShaderId="73">
+      <Texture fileId="141"/>
+      <CustomParameter name="alphaBlendStartEnd" value="70 75 0 0"/>
+      <CustomParameter name="frequencyAndScale" value="0.3 0.1 0 0"/>
+      <CustomParameter name="plantRotate" value="0.4363 1.57 0 0"/>
+      <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="16 1024 2 255"/>
+    </Material>
+    <Material name="foliageGrass_mat" materialId="26" ambientColor="1 1 1" customShaderId="73">
+      <Texture fileId="76"/>
+      <CustomParameter name="alphaBlendStartEnd" value="70 75 0 0"/>
+      <CustomParameter name="frequencyAndScale" value="0.3 0.1 0 0"/>
+      <CustomParameter name="plantRotate" value="0.4363 1.57 0 0"/>
+      <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="16 1024 2 255"/>
+    </Material>
+    <Material name="foliage_forestGrassDark_mat" materialId="18" ambientColor="1 1 1" customShaderId="139">
+      <Texture fileId="138"/>
+      <CustomParameter name="fadeStartEnd" value="55 60 0 0"/>
+      <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="16 1024 2 255"/>
+    </Material>
+    <Material name="poplar_mat" materialId="29" ambientColor="1 1 1" customShaderId="73">
+      <Texture fileId="128"/>
+      <CustomParameter name="alphaBlendStartEnd" value="70 75 0 0"/>
+      <CustomParameter name="frequencyAndScale" value="0.05 0.02 0 0"/>
+      <CustomParameter name="plantRotate" value="0.4363 1.57 0 0"/>
+      <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="16 1024 2 255"/>
+    </Material>
+    <Material name="soybean_mat" materialId="19" ambientColor="1 1 1" customShaderId="73">
+      <Texture fileId="125"/>
+      <CustomParameter name="alphaBlendStartEnd" value="70 75 0 0"/>
+      <CustomParameter name="frequencyAndScale" value="0.3 0.1 0 0"/>
+      <CustomParameter name="plantRotate" value="0.4363 1.57 0 0"/>
+      <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="16 1024 2 255"/>
+    </Material>
+    <Material name="oilseedRadish_mat" materialId="20" ambientColor="1 1 1" customShaderId="73">
+      <Texture fileId="127"/>
+      <CustomParameter name="alphaBlendStartEnd" value="70 75 0 0"/>
+      <CustomParameter name="frequencyAndScale" value="0.3 0.1 0 0"/>
+      <CustomParameter name="plantRotate" value="0.4363 1.57 0 0"/>
+      <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="16 1024 2 255"/>
+    </Material>
+    <Material name="foliageSugarBeet_mat" materialId="14" ambientColor="1 1 1" customShaderId="73">
+      <Texture fileId="110"/>
+      <CustomParameter name="alphaBlendStartEnd" value="70 75 0 0"/>
+      <CustomParameter name="frequencyAndScale" value="0.3 0.1 0 0"/>
+      <CustomParameter name="plantRotate" value="0.4363 1.57 0 0"/>
+      <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="16 1024 2 255"/>
+    </Material>
+    <Material name="potatoHaulmMaterial" materialId="16" ambientColor="1 1 1" customShaderId="104">
+      <Texture fileId="103"/>
+      <CustomParameter name="alphaBlendStartEnd" value="70 75 0 0"/>
+      <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="16 1024 2 255"/>
+    </Material>
+    <Material name="sunflower_mat" materialId="22" ambientColor="1 1 1" customShaderId="73" customShaderVariation="PLANT_ROTATION">
+      <Texture fileId="118"/>
+      <CustomParameter name="alphaBlendStartEnd" value="70 75 0 0"/>
+      <CustomParameter name="frequencyAndScale" value="0.05 0.02 0 0"/>
+      <CustomParameter name="plantRotate" value="0 0 0 0"/>
+      <CustomParameter name="cellSizeTerrainSizeScaleXZScaleY" value="16 1024 2 255"/>
+    </Material>
+    <Material name="groundDetail_mat" materialId="28" ambientColor="1 1 1" customShaderId="159">
+      <Texture fileId="157"/>
+      <Normalmap fileId="158"/>
+      <Custommap name="noiseMap" fileId="160"/>
+      <CustomParameter name="dirtAndTextureUVScaleOffset" value="0.04 0.04 0.1875 0.071429"/>
+      <CustomParameter name="alphaBlendStartEnd" value="75 80 0 0"/>
+      <CustomParameter name="terrainSizeInvSizeScaleXZScaleY" value="1024 0.000976563 2 0.00389105"/>
+    </Material>
+  </Materials>
+
+
+  <Shapes externalShapesFile="map01.i3d.shapes">
+  </Shapes>
+
+
+  <Dynamics>
+  </Dynamics>
+
+  <Scene>
+    <Camera name="persp" translation="-101.886 188.87 4.42032" rotation="149.52 -87.985 -180" visibility="false" nodeId="99" fov="60" nearClip="0.1" farClip="10000" orthographicHeight="1"/>
+    <Light name="sun" translation="0 400 0" rotation="-35.3926 51.396 20.8053" objectMask="33488896" nodeId="100" type="directional" color="1 1 1" emitDiffuse="true" emitSpecular="true" castShadowMap="true" depthMapBias="0.001" depthMapSlopeScaleBias="2" depthMapSlopeClamp="0.0005" depthMapResolution="2048" shadowFarDistance="120" shadowExtrusionDistance="200" shadowPerspective="true" shadowPerspectiveParameter="5" numShadowMapSplits="3" shadowMapSplitDistancesParameter="0.5" decayRate="1" range="10000"/>
+    <TerrainTransformGroup name="terrain" static="true" collisionMask="524255" nodeId="102" heightMapId="1" patchSize="65" maxLODDistance="1000" heightScale="255" unitsPerPixel="2" lodBlendStart="200" lodBlendEnd="300" lodTextureSize="1024" lodBlendStartDynamic="50" lodBlendEndDynamic="65" materialId="13">
+      <Layers>
+        <Layer name="roughDirt" detailMapId="5" normalMapId="6" unitSize="12" weightMapId="3" distanceMapId="4" attributes="0.155 0.082 0.037 1 1" priority="2"/>
+        <Layer name="grass" detailMapId="9" normalMapId="10" unitSize="10" weightMapId="7" distanceMapId="8" attributes="0.208 0.11 0.056 1 2" priority="0"/>
+        <Layer name="mountainRock" detailMapId="13" normalMapId="14" unitSize="16" weightMapId="11" distanceMapId="12" attributes="0.167 0.163 0.159 0 7" priority="5"/>
+        <Layer name="beachSand" detailMapId="17" normalMapId="18" unitSize="16" weightMapId="15" distanceMapId="16" attributes="0.901 0.613 0.365 1 3" priority="3"/>
+        <Layer name="gravel" detailMapId="21" normalMapId="22" unitSize="8" weightMapId="19" distanceMapId="20" attributes="0.443 0.424 0.42 0.6 1" priority="4"/>
+        <Layer name="concrete" detailMapId="25" normalMapId="26" unitSize="16" weightMapId="23" distanceMapId="24" attributes="0.408 0.412 0.4 0 7" priority="6"/>
+        <Layer name="forestGround" detailMapId="29" normalMapId="30" unitSize="8" weightMapId="27" distanceMapId="28" attributes="0.034 0.016 0.008 0.8 5" priority="1"/>
+        <Layer name="townGrass" detailMapId="33" normalMapId="34" unitSize="10" weightMapId="31" distanceMapId="32" attributes="0.208 0.11 0.056 1 2" priority="0"/>
+        <Layer name="pigMud" detailMapId="37" normalMapId="38" unitSize="10" weightMapId="35" distanceMapId="36" attributes="0.155 0.082 0.037 1 1" priority="0"/>
+        <Layer name="asphalt" detailMapId="41" normalMapId="42" unitSize="16" weightMapId="39" distanceMapId="40" attributes="0.408 0.412 0.4 0 7" priority="6"/>
+        <Layer name="leaves" detailMapId="45" normalMapId="46" unitSize="8" weightMapId="43" distanceMapId="44" attributes="0.034 0.016 0.008 0.8 5" priority="1"/>
+        <Layer name="mud" detailMapId="49" normalMapId="50" unitSize="8" weightMapId="47" distanceMapId="48" attributes="0.155 0.082 0.037 1 1" priority="5"/>
+        <Layer name="plate" detailMapId="53" normalMapId="54" unitSize="16" weightMapId="51" distanceMapId="52" attributes="0.138 0.082 0.045 0 7" priority="7"/>
+        <Layer name="rock" detailMapId="57" normalMapId="58" unitSize="30" weightMapId="55" distanceMapId="56" attributes="0.167 0.163 0.159 0 7" priority="5"/>
+        <Layer name="dirt" detailMapId="61" normalMapId="62" unitSize="10" weightMapId="59" distanceMapId="60" attributes="0.155 0.082 0.037 1 1" priority="2"/>
+        <LayerCombiner defaultDepthScale="0" defaultSharpness="1">
+          <LayerPair base="mountainRock" top="roughDirt" depthScale="0.8" sharpness="3"/>
+          <LayerPair base="beachSand" top="roughDirt" depthScale="0.8" sharpness="1"/>
+          <LayerPair base="gravel" top="roughDirt" depthScale="0.5" sharpness="3"/>
+          <LayerPair base="concrete" top="roughDirt" depthScale="0.7" sharpness="2"/>
+          <LayerPair base="roughDirt" top="grass" depthScale="0.6" sharpness="2"/>
+          <LayerPair base="mountainRock" top="grass" depthScale="0.8" sharpness="3"/>
+          <LayerPair base="beachSand" top="grass" depthScale="0.8" sharpness="1"/>
+          <LayerPair base="gravel" top="grass" depthScale="0.5" sharpness="3"/>
+          <LayerPair base="concrete" top="grass" depthScale="0.4" sharpness="2"/>
+          <LayerPair base="asphalt" top="grass" depthScale="0.4" sharpness="2"/>
+          <LayerPair base="mud" top="grass" depthScale="0.8" sharpness="2"/>
+          <LayerPair base="plate" top="grass" depthScale="0.8" sharpness="3"/>
+          <LayerPair base="rock" top="grass" depthScale="0.4" sharpness="2"/>
+          <LayerPair base="dirt" top="grass" depthScale="0.6" sharpness="2"/>
+          <LayerPair base="mud" top="beachSand" depthScale="0.8" sharpness="2"/>
+          <LayerPair base="plate" top="beachSand" depthScale="0.8" sharpness="3"/>
+          <LayerPair base="mud" top="gravel" depthScale="0.8" sharpness="3"/>
+          <LayerPair base="plate" top="gravel" depthScale="0.8" sharpness="3"/>
+          <LayerPair base="roughDirt" top="forestGround" depthScale="0.8" sharpness="3"/>
+          <LayerPair base="beachSand" top="forestGround" depthScale="0.8" sharpness="1"/>
+          <LayerPair base="roughDirt" top="townGrass" depthScale="0.4" sharpness="3"/>
+          <LayerPair base="mountainRock" top="townGrass" depthScale="0.8" sharpness="3"/>
+          <LayerPair base="beachSand" top="townGrass" depthScale="0.8" sharpness="1"/>
+          <LayerPair base="gravel" top="townGrass" depthScale="0.5" sharpness="3"/>
+          <LayerPair base="concrete" top="townGrass" depthScale="0.4" sharpness="2"/>
+          <LayerPair base="beachSand" top="leaves" depthScale="0.8" sharpness="1"/>
+          <LayerPair base="plate" top="leaves" depthScale="0.8" sharpness="3"/>
+          <LayerPair base="dirt" top="leaves" depthScale="0.8" sharpness="3"/>
+          <LayerPair base="plate" top="mud" depthScale="0.8" sharpness="3"/>
+          <LayerPair base="beachSand" top="dirt" depthScale="0.8" sharpness="1"/>
+          <LayerPair base="gravel" top="dirt" depthScale="0.5" sharpness="2"/>
+          <LayerPair base="asphalt" top="dirt" depthScale="0.7" sharpness="2"/>
+          <LayerPair base="mud" top="dirt" depthScale="0.4" sharpness="1"/>
+          <LayerPair base="plate" top="dirt" depthScale="0.8" sharpness="3"/>
+          <LayerPair base="rock" top="dirt" depthScale="0.4" sharpness="3"/>
+        </LayerCombiner>
+        <InfoLayer name="infoLayer" fileId="63" numChannels="4"/>
+        <InfoLayer name="tipCol" fileId="64" numChannels="1" runtime="true"/>
+        <FoliageMultiLayer densityMapId="65" numChannels="9" numTypeIndexChannels="4" compressionChannels="4">
+          <FoliageSubLayer name="wheat" densityMapTypeIndex="1" densityMapChannelOffset="4" numDensityMapChannels="4" materialId="9" cellSize="8" viewDistance="80" objectMask="16711935" decalLayer="0" distanceMapIds=";66;67;68;69;69;69;70;71" distanceMapLayers="1;1;1;1;1;1;1;1;1" atlasSize="1" atlasOffsets="1 0" numBlocksPerUnitDefault="1.5" numBlocksPerUnitMin="1" numBlocksPerUnitMax="1.8" width=";0.25;0.5;0.9;1.9;1.9;1.9;0.9;1.1" height=";0.25;0.5;0.9;1.3;1.3;1.3;0.9;1" texCoords=";0 0 1 1" widthVariance="0.1" heightVariance="0.2" horizontalPositionVariance="0.5" numStates="9" blockShapeId=";1;2;3;4;4;4;5;6;"/>
+          <FoliageSubLayer name="grass" densityMapTypeIndex="2" densityMapChannelOffset="4" numDensityMapChannels="4" materialId="25" cellSize="8" viewDistance="80" objectMask="16711935" decalLayer="0" atlasSize="1;1;1;3" atlasOffsets="0 0;0 0;0.25 0" numBlocksPerUnitDefault="1" numBlocksPerUnitMin="0.8" numBlocksPerUnitMax="1.5" width=";0.25;0.5;0.65" height=";0.25;0.4;0.65" texCoords=";0 0 1 1" widthVariance="0;0;0.2;0.3" heightVariance="0;0;0.1;0.3" horizontalPositionVariance="0.75" numStates="4" blockShapeId=";7;8;9"/>
+          <FoliageSubLayer name="rape" densityMapTypeIndex="3" densityMapChannelOffset="4" numDensityMapChannels="4" materialId="8" cellSize="8" viewDistance="80" objectMask="16711935" decalLayer="0" distanceMapIds=";77;78;79;80;80;80;81;82" distanceMapLayers="1;1;1;1;1;1;1;1;1" atlasSize="1" atlasOffsets="1 0" numBlocksPerUnitDefault="1.2" numBlocksPerUnitMin="0.9" numBlocksPerUnitMax="1.4" width=";0.25;0.6;1.4;1.6;1.6;1.6;1.2;1.6" height=";0.25;0.6;1.4;1.6;1.6;1.6;1.2;1.6" texCoords=";0 0 1 1" widthVariance="0" heightVariance="0.2" horizontalPositionVariance="0.5" numStates="9" blockShapeId=";10;11;12;13;13;13;14;15;"/>
+          <FoliageSubLayer name="barley" densityMapTypeIndex="4" densityMapChannelOffset="4" numDensityMapChannels="4" materialId="9" cellSize="8" viewDistance="80" objectMask="16711935" decalLayer="0" distanceMapIds=";84;85;86;87;87;87;88;89" distanceMapLayers="1;1;1;1;1;1;1;1;1" atlasSize="1" atlasOffsets="1 0" numBlocksPerUnitDefault="1.5" numBlocksPerUnitMin="1" numBlocksPerUnitMax="1.8" width=";0.25;0.5;0.9;1.9;1.9;1.9;0.9;1" height=";0.25;0.5;0.9;1.3;1.3;1.3;0.9;1" texCoords=";0 0 1 1" widthVariance="0" heightVariance="0.2" horizontalPositionVariance="0.5" numStates="9" blockShapeId=";16;17;18;19;19;19;20;21;"/>
+          <FoliageSubLayer name="maize" densityMapTypeIndex="5" densityMapChannelOffset="4" numDensityMapChannels="4" materialId="32" cellSize="8" viewDistance="80" objectMask="16711935" decalLayer="0" distanceMapIds=";90;91;92;93;93;93;94;95" distanceMapLayers="1;1;1;1;1;1;1;1;1" atlasSize="1" atlasOffsets="1 0" numBlocksPerUnitDefault="1.3" numBlocksPerUnitMin="1.3" numBlocksPerUnitMax="1.3" width=";0.875;1.5;2.9;2.9;2.9;2.9;2.7;2.9" height=";0.875;1.5;2.9;2.9;2.9;2.9;2.7;2.9" texCoords=";0 0 1 1" widthVariance="0.2" heightVariance="0.3" horizontalPositionVariance="0.25" numStates="9" blockShapeId=";22;23;24;25;25;25;26;27;"/>
+          <FoliageSubLayer name="dryGrass" densityMapTypeIndex="6" densityMapChannelOffset="4" numDensityMapChannels="4" materialId="26" cellSize="8" viewDistance="80" objectMask="16711935" decalLayer="0" atlasSize="1;1;1;3" atlasOffsets="0 0;0 0;0.25 0" numBlocksPerUnitDefault="1" numBlocksPerUnitMin="1" numBlocksPerUnitMax="1" width=";0.25;0.5;0.65" height=";0.25;0.5;0.65" texCoords=";0 0 1 1" widthVariance="0;0;0.2;0.3" heightVariance="0;0;0.1;0.3" horizontalPositionVariance="0.75" numStates="4" blockShapeId=";7;8;9"/>
+          <FoliageSubLayer name="potato" densityMapTypeIndex="7" densityMapChannelOffset="4" numDensityMapChannels="4" materialId="10" cellSize="8" viewDistance="80" objectMask="16711935" decalLayer="0" distanceMapIds=";97;98;99;100;101" distanceMapLayers="1;1;1;1;1;1;1;1;1;1" atlasSize="1" atlasOffsets="1 0" numBlocksPerUnitDefault="1.33" numBlocksPerUnitMin="1.33" numBlocksPerUnitMax="1.33" width=";0.2;0.4;0.7;1;0.5;;;;0.5" height=";0.2;0.4;0.7;1;0.5;;;;0.5" texCoords=";0 0 1 1" widthVariance="0.15" heightVariance="0.15" horizontalPositionVariance="0.12" numStates="10" blockShapeId=";28;29;30;31;32;;;;33;"/>
+          <FoliageSubLayer name="potato_haulm" densityMapTypeIndex="7" densityMapChannelOffset="8" numDensityMapChannels="1" materialId="16" cellSize="8" viewDistance="80" objectMask="16711935" decalLayer="0" atlasSize="1" atlasOffsets="1 0" numBlocksPerUnitDefault="1.4" numBlocksPerUnitMin="1.4" numBlocksPerUnitMax="1.4" width="1.5" height="1" widthVariance="0" heightVariance="0" horizontalPositionVariance="0.1" blockShapeId="34"/>
+          <FoliageSubLayer name="sugarBeet" densityMapTypeIndex="8" densityMapChannelOffset="4" numDensityMapChannels="4" materialId="14" cellSize="8" viewDistance="80" objectMask="16711935" decalLayer="0" distanceMapIds=";105;106;107;108;108;108;109" distanceMapLayers="1;1;1;1;1;1;1;1;1;1" atlasSize="1" atlasOffsets="1 0" numBlocksPerUnitDefault="2" numBlocksPerUnitMin="1.5" numBlocksPerUnitMax="2" width=";0.15;0.25;0.3;0.4;0.4;0.4;0.4;;0.4" height=";0.15;0.25;0.3;0.4;0.4;0.4;0.4;;0.4" texCoords=";0 0 1 1" widthVariance="0" heightVariance="0.07" horizontalPositionVariance="0.08" numStates="10" blockShapeId=";35;36;37;38;38;38;39;;40;"/>
+          <FoliageSubLayer name="sugarBeet_haulm" densityMapTypeIndex="8" densityMapChannelOffset="8" numDensityMapChannels="1" materialId="23" cellSize="8" viewDistance="80" objectMask="16711935" decalLayer="0" atlasSize="1" atlasOffsets="1 0" numBlocksPerUnitDefault="1.2" numBlocksPerUnitMin="1.2" numBlocksPerUnitMax="1.2" width="1.5" height="1" widthVariance="0" heightVariance="0" horizontalPositionVariance="0.1" blockShapeId="34"/>
+          <FoliageSubLayer name="sunflower" densityMapTypeIndex="9" densityMapChannelOffset="4" numDensityMapChannels="4" materialId="22" cellSize="8" viewDistance="80" objectMask="16711935" decalLayer="0" distanceMapIds=";112;113;114;115;115;115;116;117" distanceMapLayers="1;1;1;1;1;1;1;1;1" atlasSize="1;1;1;5;1" atlasOffsets="0 0;0 0;0 0;0.125 0;0 0" numBlocksPerUnitDefault="1.3" numBlocksPerUnitMin="1.3" numBlocksPerUnitMax="1.3" width=";0.75;1.3;1.85;2" height=";0.75;1.3;1.85;2" texCoords=";0 0 1 1" widthVariance="0.2" heightVariance="0.3" horizontalPositionVariance="0.25" numStates="9" blockShapeId=";41;42;43;44;44;44;45;46;"/>
+          <FoliageSubLayer name="soybean" densityMapTypeIndex="10" densityMapChannelOffset="4" numDensityMapChannels="4" materialId="19" cellSize="8" viewDistance="80" objectMask="16711935" decalLayer="0" distanceMapIds=";119;120;121;122;122;122;123;124" distanceMapLayers="1;1;1;1;1;1;1;1;1" atlasSize="1" atlasOffsets="1 0" numBlocksPerUnitDefault="1.2" numBlocksPerUnitMin="1" numBlocksPerUnitMax="1.5" width=";0.3;0.8;1.2" height=";0.3;0.8;1.2" texCoords=";0 0 1 1" widthVariance="0" heightVariance="0.2" horizontalPositionVariance="0.5" numStates="9" blockShapeId=";47;48;49;50;50;50;51;52;"/>
+          <FoliageSubLayer name="oilseedRadish" densityMapTypeIndex="11" densityMapChannelOffset="4" numDensityMapChannels="4" materialId="20" cellSize="8" viewDistance="80" objectMask="16711935" decalLayer="0" distanceMapIds=";126" distanceMapLayers="1;1" atlasSize="1" atlasOffsets="1 0" numBlocksPerUnitDefault="1.2" numBlocksPerUnitMin="1" numBlocksPerUnitMax="1.4" width="0.25" height=";0.25" texCoords=";0 0 1 1" widthVariance="0" heightVariance="0.2" horizontalPositionVariance="0.5" numStates="2" blockShapeId=";53"/>
+          <FoliageSubLayer name="poplar" densityMapTypeIndex="12" densityMapChannelOffset="4" numDensityMapChannels="4" materialId="29" cellSize="8" viewDistance="80" objectMask="16711935" decalLayer="0" atlasSize="1" atlasOffsets="1 0" numBlocksPerUnitDefault="2" numBlocksPerUnitMin="1.5" numBlocksPerUnitMax="2" width=";0.6;1.4;3;3.7;3.2" height=";0.6;1.4;3;3.7;3.2" texCoords=";0 0 1 1" widthVariance="0.2" heightVariance="0.2" horizontalPositionVariance="0.15" numStates="6" blockShapeId=";54;55;56;57;58"/>
+          <FoliageSubLayer name="sugarCane" densityMapTypeIndex="13" densityMapChannelOffset="4" numDensityMapChannels="4" materialId="7" cellSize="8" viewDistance="80" objectMask="16711935" decalLayer="0" distanceMapIds=";129;130;131;132;132;132;133;134" distanceMapLayers="0;0;0;0;0;0;0;0;0" atlasSize="1;1;1;1;3" atlasOffsets="1 0;1 0;1 0;1 0;0.25 0" numBlocksPerUnitDefault="1.33" numBlocksPerUnitMin="1.33" numBlocksPerUnitMax="1.33" width=";1;1.6;3;4.5" height=";1;1.6;3;4.5" texCoords=";0 0 1 1" widthVariance="0" heightVariance="0.2" horizontalPositionVariance="0.12" numStates="10" blockShapeId=";59;60;61;62;62;62;62;63;64;"/>
+          <FoliageSubLayer name="sugarCane_haulm" densityMapTypeIndex="13" densityMapChannelOffset="8" numDensityMapChannels="1" materialId="24" cellSize="8" viewDistance="80" objectMask="16711935" decalLayer="0" atlasSize="1" atlasOffsets="1 0" numBlocksPerUnitDefault="1.4" numBlocksPerUnitMin="1.4" numBlocksPerUnitMax="1.4" width="1.5" height="1" widthVariance="0" heightVariance="0" horizontalPositionVariance="0.1" blockShapeId="34"/>
+        </FoliageMultiLayer>
+        <FoliageMultiLayer densityMapId="137" numChannels="1" numTypeIndexChannels="0">
+          <FoliageSubLayer name="forestGrassDark" numDensityMapChannels="1" materialId="18" cellSize="8" viewDistance="60" objectMask="16711935" decalLayer="0" atlasSize="2" atlasOffsets="0.5 0" numBlocksPerUnitDefault="0.5" numBlocksPerUnitMin="0.5" numBlocksPerUnitMax="0.5" width="1" height="1" widthVariance="0.2" heightVariance="0.2" horizontalPositionVariance="0.75" blockShapeId="65"/>
+        </FoliageMultiLayer>
+        <FoliageMultiLayer densityMapId="140" numChannels="1" numTypeIndexChannels="0">
+          <FoliageSubLayer name="townDecoGrass" numDensityMapChannels="1" materialId="21" cellSize="8" viewDistance="60" objectMask="16711935" decalLayer="0" atlasSize="3" atlasOffsets="0.25 0" numBlocksPerUnitDefault="1" numBlocksPerUnitMin="1" numBlocksPerUnitMax="1" width="0.65" height="0.65" texCoords="0 0 1 1" widthVariance="0.2" heightVariance="0.2" horizontalPositionVariance="0.75" blockShapeId="9"/>
+        </FoliageMultiLayer>
+        <FoliageMultiLayer densityMapId="142" numChannels="1" numTypeIndexChannels="0">
+          <FoliageSubLayer name="ssSnowMask" numDensityMapChannels="1" materialId="11" cellSize="8" viewDistance="0" objectMask="16711935" decalLayer="0" atlasSize="1" atlasOffsets="1 0" numBlocksPerUnitDefault="1.8" numBlocksPerUnitMin="1.8" numBlocksPerUnitMax="1.8" width="0.8" height="0.3" widthVariance="0.1" heightVariance="0.1" horizontalPositionVariance="0.3" blockShapeId="1"/>
+        </FoliageMultiLayer>
+        <DetailLayer name="terrainDetail" densityMapId="144" numDensityMapChannels="11" compressionChannels="5" materialId="28" cellSize="8" viewDistance="75" objectMask="16711935" decalLayer="1" densityMapShaderNames="blendMap;blendMap2" combinedValuesChannels="0 3 0;5 2 0;3 2 1" useInterpolatedDensityMap="false" distanceMapIds="145;146;147;148;149;;;;150;151;152;153;154;;;;155;155;155;155;156" distanceMapFirstChannel="0" distanceMapNumChannels="5"/>
+        <DetailLayer name="terrainDetailHeight" densityMapId="163" numDensityMapChannels="11" compressionChannels="5" materialId="31" cellSize="8" viewDistance="75" objectMask="16711935" decalLayer="2" densityMapShaderNames="blendMap" combinedValuesChannels="0 5 0;5 6 0" useInterpolatedDensityMap="false" heightFirstChannel="5" heightNumChannels="6" maxHeight="4"/>
+      </Layers>
+    </TerrainTransformGroup>
+    <TransformGroup name="careerStartPoint" translation="0 127 0" nodeId="637"/>
+  </Scene>
+
+  <UserAttributes>
+    <UserAttribute nodeId="100">
+      <Attribute name="onCreate" type="scriptCallback" value="Environment.onCreateSunLight"/>
+    </UserAttribute>
+    <UserAttribute nodeId="637">
+      <Attribute name="onCreate" type="scriptCallback" value="Mission00.onCreateStartPoint"/>
+    </UserAttribute>
+  </UserAttributes>
+
+</i3D>
